@@ -49,7 +49,7 @@ if (!in_array($status, ['terminee', 'a_faire', 'en_cours', 'en_retard'])) {
 }
 
 // Connexion à la base de données
-require_once '../config/database.php';
+require_once __DIR__ . '/../includes/db.php';
 $db = connectDB();
 
 // Vérifier que la tâche appartient bien à l'utilisateur

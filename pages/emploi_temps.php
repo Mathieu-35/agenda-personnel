@@ -11,7 +11,7 @@
  */
 
 // Inclure les fonctions utilitaires
-require_once 'includes/emploi_temps_utils.php';
+require_once __DIR__ . '/../includes/emploi_temps_utils.php';
 
 /**
  * SECTION 1: INITIALISATION ET SÉCURITÉ

@@ -1,6 +1,6 @@
 -- Insertion de données d'exemple pour les tests
 INSERT INTO utilisateurs (nom, prenom, email, mot_de_passe) 
-VALUES ('Dupont', 'Jean', 'jean.dupont@email.com', SHA2('motdepasse123', 256));
+VALUES ('Dupont', 'Jean', 'jean.dupont@email.com', '$2y$12$Pp5Tz6eWsMlV1f55e1IFi.rjNQhUTUUpX3vQcgEqFvGvccbMQLUzC');
 
 INSERT INTO categories (nom, couleur, type, id_utilisateur) 
 VALUES 
