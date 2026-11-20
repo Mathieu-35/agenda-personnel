@@ -1,0 +1,9 @@
+﻿.DS_Store
+assets/.DS_Store
+includes/.DS_Store
+pages/.DS_Store
+assets/vendor/
+node_modules/
+.env
+bdd/data.sql
+*.log
